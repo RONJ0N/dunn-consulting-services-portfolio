@@ -1,0 +1,48 @@
+{
+  "version": "7",
+  "dialect": "postgresql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "7",
+      "when": 1779859084031,
+      "tag": "0000_brainy_ezekiel",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1781236771805,
+      "tag": "0001_great_lake",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1750017600000,
+      "tag": "0002_add_email",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1786000000000,
+      "tag": "0003_fk_constraints",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "7",
+      "when": 1786000100000,
+      "tag": "0004_rls_tenant_isolation",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "7",
+      "when": 1786000200000,
+      "tag": "0005_enforce_rls",
+      "breakpoints": true
+    }
+  ]
+}

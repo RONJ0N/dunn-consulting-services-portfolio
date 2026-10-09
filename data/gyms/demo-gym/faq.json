@@ -1,0 +1,192 @@
+[
+  {
+    "id": "hours-weekday",
+    "category": "hours",
+    "content": "Iron Valley Fitness is open 24/7 for members. Front desk staffed hours are Monday through Friday 5:00 AM to 10:00 PM, Saturday 6:00 AM to 8:00 PM, and Sunday 7:00 AM to 6:00 PM."
+  },
+  {
+    "id": "hours-holiday",
+    "category": "hours",
+    "content": "On major holidays (New Year's Day, Thanksgiving, Christmas), staffed front desk hours are 8:00 AM to 2:00 PM. The gym floor remains open 24/7 for key fob members."
+  },
+  {
+    "id": "location-address",
+    "category": "location",
+    "content": "Iron Valley Fitness is located at 742 Iron Valley Road, Austin, TX 78701, in the Riverside district near the I-35 frontage road."
+  },
+  {
+    "id": "location-parking",
+    "category": "location",
+    "content": "Free parking is available in our lot behind the building with 120 spaces. Street parking is also available on Iron Valley Road after 6 PM."
+  },
+  {
+    "id": "membership-basic",
+    "category": "membership",
+    "content": "Basic Membership is $29/month with a $49 enrollment fee. Includes 24/7 gym access, locker rooms, and cardio and free-weight areas. Does not include group classes."
+  },
+  {
+    "id": "membership-plus",
+    "category": "membership",
+    "content": "Plus Membership is $49/month with a $49 enrollment fee. Includes everything in Basic plus unlimited group fitness classes (yoga, spin, HIIT, and strength)."
+  },
+  {
+    "id": "membership-premium",
+    "category": "membership",
+    "content": "Premium Membership is $79/month with no enrollment fee. Includes Plus benefits plus 2 personal training sessions per month, sauna access, and guest passes (2 per month)."
+  },
+  {
+    "id": "membership-annual",
+    "category": "membership",
+    "content": "Annual memberships save 15% when paid upfront. Basic annual is $296, Plus annual is $500, Premium annual is $806. Ask front desk for annual signup."
+  },
+  {
+    "id": "membership-freeze",
+    "category": "membership",
+    "content": "Members can freeze their account for up to 3 months per year for $5/month. Medical freezes up to 6 months are available with a doctor's note at no charge."
+  },
+  {
+    "id": "membership-cancel",
+    "category": "membership",
+    "content": "Memberships are month-to-month with 30 days written notice to cancel. Visit the front desk or email demo@example.com to submit cancellation."
+  },
+  {
+    "id": "class-yoga-mon",
+    "category": "classes",
+    "content": "Power Yoga runs Monday and Wednesday at 6:00 AM and 6:30 PM, and Saturday at 9:00 AM. Included with Plus and Premium memberships."
+  },
+  {
+    "id": "class-yoga-wed",
+    "category": "classes",
+    "content": "Gentle Flow Yoga is Tuesday and Thursday at 7:00 AM and Friday at 5:30 PM. Suitable for all levels. Included with Plus and Premium memberships."
+  },
+  {
+    "id": "class-spin",
+    "category": "classes",
+    "content": "Spin classes run Monday through Friday at 12:00 PM and 5:45 PM, plus Saturday at 10:30 AM. Reserve bikes through the Iron Valley app up to 24 hours ahead."
+  },
+  {
+    "id": "class-hiit",
+    "category": "classes",
+    "content": "HIIT Burn classes are Tuesday and Thursday at 6:00 AM and 7:00 PM, and Sunday at 11:00 AM. High intensity interval training, 45 minutes."
+  },
+  {
+    "id": "class-strength",
+    "category": "classes",
+    "content": "Barbell Strength runs Monday, Wednesday, and Friday at 7:00 AM. Focus on compound lifts with coach supervision. Included with Plus and Premium."
+  },
+  {
+    "id": "class-schedule-general",
+    "category": "classes",
+    "content": "Full class schedule is posted at the front desk and in the Iron Valley Fitness mobile app. Group classes require Plus or Premium membership unless noted as drop-in ($15)."
+  },
+  {
+    "id": "pt-rates",
+    "category": "personal_training",
+    "content": "Personal training sessions are $65 for a single session, $300 for 5 sessions, or $550 for 10 sessions. Premium members receive 2 sessions included monthly."
+  },
+  {
+    "id": "pt-availability",
+    "category": "personal_training",
+    "content": "Personal trainers are available Monday through Saturday 6:00 AM to 8:00 PM. Book through the front desk or app. First-time clients get a free 30-minute fitness assessment."
+  },
+  {
+    "id": "pt-specialties",
+    "category": "personal_training",
+    "content": "Our trainers specialize in weight loss, strength building, sports performance, and post-rehabilitation training. Ask about our 'New Member Kickstart' 4-week program ($199)."
+  },
+  {
+    "id": "equipment-cardio",
+    "category": "equipment",
+    "content": "Cardio area includes 20 treadmills, 15 ellipticals, 10 stair climbers, 8 rowing machines, and 12 spin bikes. All equipment was upgraded in 2024."
+  },
+  {
+    "id": "equipment-weights",
+    "category": "equipment",
+    "content": "Free weight area includes 2 squat racks, 2 deadlift platforms, dumbbells up to 120 lbs, and a full cable machine station. Olympic lifting area available during staffed hours."
+  },
+  {
+    "id": "equipment-amenities",
+    "category": "equipment",
+    "content": "Amenities include locker rooms with showers, towel service (Premium members), a sauna (Premium), and a smoothie bar open 7 AM to 7 PM daily."
+  },
+  {
+    "id": "trial-day-pass",
+    "category": "sales",
+    "content": "New visitors can get a free 1-day pass by showing ID at the front desk. No commitment required. Perfect for trying the gym before joining."
+  },
+  {
+    "id": "trial-week",
+    "category": "sales",
+    "content": "We offer a 7-day trial for $20, which applies toward your enrollment fee if you join within 14 days. Includes full Plus-level access."
+  },
+  {
+    "id": "tour-booking",
+    "category": "sales",
+    "content": "Free gym tours are available during staffed hours. Walk-ins welcome, or schedule a tour by leaving your name and phone number and our team will call you back within 24 hours."
+  },
+  {
+    "id": "contact-phone",
+    "category": "contact",
+    "content": "Call us at (512) 555-0198 during staffed hours, or email demo@example.com anytime. We respond to emails within one business day."
+  },
+  {
+    "id": "contact-social",
+    "category": "contact",
+    "content": "Follow Iron Valley Fitness on Instagram @ironvalleyfitness for class updates, promotions, and member spotlights."
+  },
+  {
+    "id": "policy-guest",
+    "category": "policies",
+    "content": "Basic members can bring guests for $10 per visit. Premium members get 2 free guest passes per month. All guests must sign a waiver."
+  },
+  {
+    "id": "policy-age",
+    "category": "policies",
+    "content": "Members must be 16 or older. Ages 16-17 require a parent or guardian signature. Youth fitness programs for ages 12-15 run seasonally."
+  },
+  {
+    "id": "policy-cleanliness",
+    "category": "policies",
+    "content": "Members are asked to wipe down equipment after use and re-rack weights. Cleaning stations are located throughout the gym floor."
+  },
+  {
+    "id": "membership-cheapest",
+    "category": "membership",
+    "content": "Our most affordable option is the Basic Membership at $29/month plus a $49 enrollment fee. It includes 24/7 gym access without group classes."
+  },
+  {
+    "id": "membership-student",
+    "category": "membership",
+    "content": "Students with a valid college ID receive 10% off Plus and Premium memberships. Bring your student ID to the front desk to enroll."
+  },
+  {
+    "id": "membership-cancel-anytime",
+    "category": "membership",
+    "content": "All memberships are month-to-month. You can cancel anytime with 30 days written notice by visiting the front desk or emailing demo@example.com."
+  },
+  {
+    "id": "location-parking-night",
+    "category": "location",
+    "content": "The member parking lot is well-lit and monitored after dark. Late-night entry requires a key fob for 24/7 members."
+  },
+  {
+    "id": "sales-day-pass-detail",
+    "category": "sales",
+    "content": "New visitors can pick up a free 1-day pass at the front desk with a photo ID. The pass includes access to the gym floor and cardio equipment during staffed hours."
+  },
+  {
+    "id": "hours-sunday-specific",
+    "category": "hours",
+    "content": "On Sundays, staffed front desk hours are 7:00 AM to 6:00 PM. The gym floor remains open 24/7 for key fob members."
+  },
+  {
+    "id": "classes-drop-in",
+    "category": "classes",
+    "content": "Drop-in group classes are $15 per class for non-members or Basic members. Plus and Premium memberships include unlimited classes."
+  },
+  {
+    "id": "handoff-human",
+    "category": "contact",
+    "content": "If a customer wants to speak with a person immediately during staffed hours, direct them to call (512) 555-0198 or visit the front desk at 742 Iron Valley Road."
+  }
+]

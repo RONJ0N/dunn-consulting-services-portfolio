@@ -1,0 +1,248 @@
+{
+  "name": "Iron Valley Fitness",
+  "tagline": "Stronger every day. Open 24/7.",
+  "accentColor": "#E63946",
+  "contactEmail": "demo@example.com",
+  "publicPhone": "(512) 555-0198",
+  "address": "Demo location \u2014 fictional sample data",
+  "tone": "friendly, upbeat, and professional",
+  "websiteUrl": "https://example.com/demo-gym",
+  "categories": [
+    {
+      "id": "hours",
+      "name": "Hours and access",
+      "description": "Staffed hours, weekend, holiday, 24-hour key fob access.",
+      "injectOnIntents": [
+        "hours"
+      ],
+      "keywords": [
+        "hours",
+        "open",
+        "close",
+        "staffed",
+        "holiday",
+        "weekend"
+      ],
+      "examples": [
+        "What are your hours?",
+        "Are you open Sunday?"
+      ]
+    },
+    {
+      "id": "location",
+      "name": "Location and parking",
+      "description": "Address, parking lot, neighborhood, late-night entry.",
+      "injectOnIntents": [
+        "location"
+      ],
+      "keywords": [
+        "address",
+        "parking",
+        "location",
+        "where",
+        "directions"
+      ],
+      "examples": [
+        "Where are you located?",
+        "Is parking free?"
+      ]
+    },
+    {
+      "id": "membership",
+      "name": "Memberships and pricing",
+      "description": "Basic, Plus, Premium tiers, freezes, cancellations, student discount.",
+      "injectOnIntents": [
+        "overview",
+        "membership"
+      ],
+      "keywords": [
+        "membership",
+        "price",
+        "pricing",
+        "cost",
+        "tier",
+        "basic",
+        "plus",
+        "premium",
+        "cancel",
+        "freeze",
+        "annual",
+        "student"
+      ],
+      "examples": [
+        "How much is membership?",
+        "Which plan should I get?",
+        "What's included in Plus?"
+      ]
+    },
+    {
+      "id": "classes",
+      "name": "Group classes",
+      "description": "Yoga, spin, HIIT, barbell strength schedules and drop-in pricing.",
+      "injectOnIntents": [
+        "overview",
+        "classes"
+      ],
+      "keywords": [
+        "class",
+        "classes",
+        "yoga",
+        "spin",
+        "hiit",
+        "strength",
+        "barbell",
+        "schedule",
+        "drop-in"
+      ],
+      "examples": [
+        "What classes do you offer?",
+        "When is spin?"
+      ]
+    },
+    {
+      "id": "personal_training",
+      "name": "Personal training",
+      "description": "PT rates, packages, availability, specialties, included PT sessions.",
+      "injectOnIntents": [
+        "overview",
+        "personal_training"
+      ],
+      "keywords": [
+        "personal training",
+        "trainer",
+        "trainers",
+        "pt",
+        "coaching",
+        "coach",
+        "session",
+        "sessions",
+        "1-on-1",
+        "one on one"
+      ],
+      "examples": [
+        "Do you have personal trainers?",
+        "How much is a PT session?",
+        "Are PT sessions included in any membership?"
+      ]
+    },
+    {
+      "id": "equipment",
+      "name": "Equipment and amenities",
+      "description": "Cardio, free weights, sauna, smoothie bar, showers, towels.",
+      "injectOnIntents": [
+        "overview",
+        "equipment"
+      ],
+      "keywords": [
+        "equipment",
+        "cardio",
+        "weights",
+        "dumbbells",
+        "barbell",
+        "rack",
+        "sauna",
+        "shower",
+        "smoothie",
+        "amenities"
+      ],
+      "examples": [
+        "What equipment do you have?",
+        "Is there a sauna?"
+      ]
+    },
+    {
+      "id": "sales",
+      "name": "Day passes, trials, tours",
+      "description": "Free day pass, 7-day trial, tour booking, promotions.",
+      "injectOnIntents": [
+        "overview",
+        "sales"
+      ],
+      "keywords": [
+        "trial",
+        "day pass",
+        "tour",
+        "free",
+        "guest"
+      ],
+      "examples": [
+        "Do you offer a free trial?",
+        "Can I tour the gym?"
+      ]
+    },
+    {
+      "id": "contact",
+      "name": "Contact",
+      "description": "Phone, email, social media, human handoff.",
+      "injectOnIntents": [
+        "contact"
+      ],
+      "keywords": [
+        "phone",
+        "email",
+        "contact",
+        "call",
+        "instagram",
+        "social"
+      ],
+      "examples": [
+        "How do I reach a human?",
+        "What's your phone number?"
+      ]
+    },
+    {
+      "id": "policies",
+      "name": "Policies",
+      "description": "Guest, age, cleanliness, waivers.",
+      "injectOnIntents": [
+        "policies"
+      ],
+      "keywords": [
+        "policy",
+        "guest",
+        "age",
+        "waiver",
+        "rules",
+        "cleanliness"
+      ],
+      "examples": [
+        "Can I bring a guest?",
+        "What's the minimum age?"
+      ]
+    }
+  ],
+  "branding": {
+    "accentColor": "#E63946",
+    "greeting": "Hi! I'm the Iron Valley Fitness front desk assistant. Ask about hours, memberships, classes, or policies \u2014 no pressure. When you're ready, I can help book a tour or get you signed up.",
+    "ctaCopy": {
+      "tour": "Want to book a free tour?",
+      "signup": "Ready to sign up?"
+    }
+  },
+  "chat": {
+    "roleOverride": "virtual front desk assistant for Iron Valley Fitness, a gym in Austin, TX",
+    "jobSummary": "1. Answer questions about hours, memberships, classes, personal training, equipment, and policies using the gym information below.\n2. Be a helpful front desk rep \u2014 inform first, build rapport, and gently guide toward a tour or membership when it fits.\n3. When someone opts in to join, book a tour, or get a callback, help them complete lead capture.",
+    "instructions": "- Lead capture opt-ins: book a tour, sign me up, call me back, free day pass, or a clear yes after you offered one.\n- During lead capture ask for fitness goals or membership preference on the final step.\n- Confirmations: tour \u2192 team will call to confirm; signup \u2192 team will call to complete signup; callback \u2192 someone will call back shortly."
+  },
+  "twilio": {
+    "enabled": false,
+    "ownerPhone": "",
+    "fromNumber": "",
+    "staffPhones": []
+  },
+  "followup": {
+    "enabled": false
+  },
+  "ownerEmail": "owner@example.com",
+  "bookingUrl": "https://example.com/booking",
+  "allowedOrigins": [
+    "localhost",
+    "127.0.0.1"
+  ],
+  "missedCall": {
+    "enabled": false
+  },
+  "notifications": {
+    "dailyDigestEnabled": false
+  }
+}

@@ -1,0 +1,6 @@
+.env
+.env.*
+.cursor
+tmp
+research-planning
+data/leads.db

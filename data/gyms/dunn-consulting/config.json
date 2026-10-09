@@ -1,0 +1,148 @@
+{
+  "name": "Dunn Consulting",
+  "tagline": "AI websites & chatbots for local businesses",
+  "accentColor": "#34d399",
+  "contactEmail": "demo@example.com",
+  "ownerEmail": "owner@example.com",
+  "publicPhone": "",
+  "address": "Demo location \u2014 fictional sample data",
+  "tone": "direct, confident, and helpful \u2014 like a trusted front desk rep who gets to the point without fluff",
+  "websiteUrl": "https://example.com/dunn-consulting",
+  "bookingUrl": "https://example.com/booking",
+  "allowedOrigins": [
+    "localhost",
+    "127.0.0.1"
+  ],
+  "categories": [
+    {
+      "id": "services",
+      "name": "Services and solutions",
+      "description": "What Dunn Consulting offers: custom AI website chatbots trained on each client's data, AI-powered websites, missed-call text-back, voice receptionists, and automation for local businesses.",
+      "injectOnIntents": [
+        "overview",
+        "sales"
+      ],
+      "keywords": [
+        "service",
+        "offer",
+        "website",
+        "chatbot",
+        "chat bot",
+        "automation",
+        "front desk",
+        "lead capture",
+        "what do you do",
+        "how does this work",
+        "ai",
+        "virtual"
+      ],
+      "examples": [
+        "What do you offer?",
+        "What is this chatbot?",
+        "Do you build websites?",
+        "How does your chatbot work?"
+      ]
+    },
+    {
+      "id": "contact",
+      "name": "Getting started and contact",
+      "description": "Book a free audit call, email demo@example.com, lead capture flow (name, phone, email, what they need help with \u2014 owner notified via email), and free two-week pilot.",
+      "injectOnIntents": [
+        "overview",
+        "contact"
+      ],
+      "keywords": [
+        "book",
+        "start",
+        "call",
+        "calendly",
+        "email",
+        "contact",
+        "free",
+        "pilot",
+        "trial",
+        "audit",
+        "get started",
+        "follow up",
+        "callback",
+        "reach"
+      ],
+      "examples": [
+        "How do I get started?",
+        "Can someone call me back?",
+        "What's the free pilot?",
+        "How do I contact you?"
+      ]
+    },
+    {
+      "id": "policies",
+      "name": "Chat policies and SMS terms",
+      "description": "Do not quote prices in chat \u2014 direct to a free audit call. SMS opt-out: reply STOP. SMS help: reply HELP or email demo@example.com.",
+      "injectOnIntents": [
+        "policies",
+        "sales"
+      ],
+      "keywords": [
+        "price",
+        "cost",
+        "how much",
+        "pricing",
+        "fee",
+        "rate",
+        "stop",
+        "opt out",
+        "sms",
+        "text",
+        "privacy",
+        "unsubscribe"
+      ],
+      "examples": [
+        "How much does it cost?",
+        "What are your prices?",
+        "How do I stop receiving texts?"
+      ]
+    }
+  ],
+  "chat": {
+    "roleOverride": "virtual front desk assistant for Dunn Consulting, trained on their business information to help website visitors",
+    "jobSummary": "1. Answer visitor questions about Dunn Consulting using only the business information below.\n2. Act like a helpful front desk rep \u2014 clear, friendly, and low pressure.\n3. When someone opts in to a callback, audit, or follow-up, guide them through lead capture; the system emails the team when their info is collected.",
+    "instructions": "- NEVER quote prices, dollar amounts, hourly rates, or package costs \u2014 even if asked directly.\n- For pricing questions, say every project is scoped individually and offer a free audit call at calendly.com/dunnredt/30min.\n- You represent Dunn Consulting only \u2014 answer from the business information, not generic AI knowledge.\n- Lead capture is name, then phone, then email, then what they need help with.\n- Lead capture opt-ins include: call me back, book a call, free audit, get started, have someone reach out, or a clear yes after you offered follow-up.",
+    "leadCapture": {
+      "goalsPrompt": "Ask what they need help with \u2014 for example a website, chatbot, business audit, or custom AI solution.",
+      "goalsFieldLabel": "What you need help with",
+      "goalsValidationHint": "That doesn't look like a clear answer. Ask again what they need help with (e.g. website, chatbot, audit, or custom AI solution).",
+      "affirmativeGoalsHint": "They said yes but didn't say what they need. Ask what they'd like help with before confirming.",
+      "completeFollowUp": "Our team will follow up by phone shortly."
+    }
+  },
+  "branding": {
+    "accentColor": "#34d399",
+    "logoUrl": "https://example.com/dunn-consulting/favicon.ico",
+    "greeting": "Hi! I'm Dunn Consulting's virtual front desk. Ask me anything about our services or how to get started \u2014 I'm here to help.",
+    "quickStarts": [
+      "What services do you offer?",
+      "How does this work?",
+      "Book a free audit",
+      "Have someone follow up"
+    ],
+    "ctaCopy": {
+      "tour": "Book a free audit",
+      "signup": "Get started"
+    }
+  },
+  "twilio": {
+    "enabled": false,
+    "ownerPhone": "",
+    "fromNumber": "",
+    "staffPhones": []
+  },
+  "missedCall": {
+    "enabled": false
+  },
+  "followup": {
+    "enabled": false
+  },
+  "notifications": {
+    "dailyDigestEnabled": false
+  }
+}

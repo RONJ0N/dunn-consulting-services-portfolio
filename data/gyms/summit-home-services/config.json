@@ -1,0 +1,195 @@
+{
+  "name": "Summit Home Services",
+  "tagline": "Heating, cooling, and plumbing \u2014 done right the first time.",
+  "accentColor": "#0E7C5B",
+  "contactEmail": "demo@example.com",
+  "publicPhone": "(512) 555-0142",
+  "address": "Demo location \u2014 fictional sample data",
+  "tone": "calm, reassuring, and professional \u2014 like a great dispatcher",
+  "websiteUrl": "https://example.com/summit-home-services",
+  "bookingUrl": "https://example.com/booking",
+  "missedCall": {
+    "enabled": false
+  },
+  "twilio": {
+    "enabled": false,
+    "ownerPhone": "",
+    "fromNumber": "",
+    "staffPhones": []
+  },
+  "followup": {
+    "enabled": false
+  },
+  "branding": {
+    "accentColor": "#0E7C5B",
+    "greeting": "Hi! I'm the Summit Home Services assistant. Ask about AC repair, heating, plumbing, pricing, or service areas \u2014 or I can get a technician scheduled for you right now.",
+    "ctaCopy": {
+      "tour": "Want us to schedule a visit?",
+      "signup": "Ready to book a technician?"
+    }
+  },
+  "categories": [
+    {
+      "id": "services",
+      "name": "Services offered",
+      "description": "AC repair and install, heating, furnace, plumbing, water heaters, duct work.",
+      "injectOnIntents": [
+        "overview",
+        "services"
+      ],
+      "keywords": [
+        "service",
+        "repair",
+        "install",
+        "ac",
+        "air conditioning",
+        "heating",
+        "furnace",
+        "plumbing",
+        "water heater",
+        "duct",
+        "hvac"
+      ],
+      "examples": [
+        "Do you fix AC units?",
+        "Do you do plumbing?"
+      ]
+    },
+    {
+      "id": "pricing",
+      "name": "Pricing and fees",
+      "description": "Diagnostic fees, typical repair ranges, free estimates, financing.",
+      "injectOnIntents": [
+        "overview",
+        "pricing"
+      ],
+      "keywords": [
+        "price",
+        "cost",
+        "fee",
+        "estimate",
+        "quote",
+        "financing",
+        "how much"
+      ],
+      "examples": [
+        "How much is a service call?",
+        "Do you give free estimates?"
+      ]
+    },
+    {
+      "id": "scheduling",
+      "name": "Scheduling and emergencies",
+      "description": "Booking a visit, same-day service, after-hours emergencies, arrival windows.",
+      "injectOnIntents": [
+        "overview",
+        "scheduling"
+      ],
+      "keywords": [
+        "schedule",
+        "appointment",
+        "book",
+        "emergency",
+        "same day",
+        "tonight",
+        "weekend",
+        "when can"
+      ],
+      "examples": [
+        "Can someone come today?",
+        "Do you do emergency calls?"
+      ]
+    },
+    {
+      "id": "service_area",
+      "name": "Service area",
+      "description": "Cities and zip codes covered, travel fees.",
+      "injectOnIntents": [
+        "location"
+      ],
+      "keywords": [
+        "area",
+        "serve",
+        "location",
+        "where",
+        "travel",
+        "zip"
+      ],
+      "examples": [
+        "Do you serve Round Rock?"
+      ]
+    },
+    {
+      "id": "maintenance",
+      "name": "Maintenance plans",
+      "description": "Annual tune-up memberships, priority scheduling, discounts.",
+      "injectOnIntents": [
+        "overview",
+        "maintenance"
+      ],
+      "keywords": [
+        "maintenance",
+        "plan",
+        "membership",
+        "tune-up",
+        "tune up",
+        "annual",
+        "priority"
+      ],
+      "examples": [
+        "Do you have a maintenance plan?"
+      ]
+    },
+    {
+      "id": "warranty",
+      "name": "Warranties and guarantees",
+      "description": "Labor warranty, parts warranty, satisfaction guarantee, licensing and insurance.",
+      "injectOnIntents": [
+        "policies"
+      ],
+      "keywords": [
+        "warranty",
+        "guarantee",
+        "licensed",
+        "insured",
+        "bonded",
+        "certified"
+      ],
+      "examples": [
+        "Are you licensed and insured?",
+        "What's your warranty?"
+      ]
+    },
+    {
+      "id": "contact",
+      "name": "Contact and hours",
+      "description": "Phone, email, office hours, after-hours line, human handoff.",
+      "injectOnIntents": [
+        "contact",
+        "hours"
+      ],
+      "keywords": [
+        "phone",
+        "email",
+        "contact",
+        "call",
+        "hours",
+        "open",
+        "human",
+        "person"
+      ],
+      "examples": [
+        "What are your hours?",
+        "How do I reach a person?"
+      ]
+    }
+  ],
+  "ownerEmail": "owner@example.com",
+  "allowedOrigins": [
+    "localhost",
+    "127.0.0.1"
+  ],
+  "notifications": {
+    "dailyDigestEnabled": false
+  }
+}

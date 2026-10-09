@@ -1,0 +1,97 @@
+[
+  {
+    "id": "no-pricing-in-chat",
+    "category": "policies",
+    "content": "Dunn Consulting does not quote prices, dollar amounts, or package costs in chat. Every project is scoped individually. When someone asks about cost or pricing, explain that the next step is a free audit call where Redt walks through their website and phone setup and recommends what to fix first."
+  },
+  {
+    "id": "virtual-front-desk",
+    "category": "services",
+    "content": "This chat widget is a custom AI virtual front desk for the business — trained on their own website content and FAQs. It answers visitor questions 24/7 and captures leads (name, phone, and what they need) so the team can follow up. When a lead is collected, the business owner is notified by email."
+  },
+  {
+    "id": "what-we-offer",
+    "category": "services",
+    "content": "Dunn Consulting helps local businesses with AI-powered websites, custom website chatbots trained on each client's data, missed-call text-back, voice receptionists, booking automation, and related lead-capture systems."
+  },
+  {
+    "id": "websites-overview",
+    "category": "services",
+    "content": "Dunn Consulting builds AI-powered websites for local businesses — fast, modern sites engineered to convert visitors into booked appointments, with an AI layer built in from day one rather than bolted on later."
+  },
+  {
+    "id": "chatbot-product",
+    "category": "services",
+    "content": "Dunn Consulting builds custom AI chatbots for each client — trained on that business's own content so the bot answers like their front desk would: services, hours, how to get started, and common visitor questions. Leads captured in chat are emailed to the business owner."
+  },
+  {
+    "id": "chatbot-vs-generic",
+    "category": "services",
+    "content": "Unlike generic FAQ bots, Dunn Consulting's chatbots are trained on each client's business data and can connect with phone, text, calendar, and CRM workflows so missed calls get followed up and leads do not fall through the cracks."
+  },
+  {
+    "id": "lead-capture",
+    "category": "contact",
+    "content": "When a visitor wants a callback, audit, or follow-up, the chat collects their name, phone number, and what they need help with. Dunn Consulting's team receives an email notification with the lead details as soon as capture completes."
+  },
+  {
+    "id": "free-audit",
+    "category": "contact",
+    "content": "Dunn Consulting offers a free audit call — about 30 minutes — where Redt walks through your website and phone setup on screen and shows where leads are leaking. Book at calendly.com/dunnredt/30min."
+  },
+  {
+    "id": "two-week-pilot",
+    "category": "contact",
+    "content": "The free two-week pilot deploys missed-call text-back on your business line at no charge. After two weeks you receive a plain-English report on missed calls and recovered leads, then decide whether to continue. No long-term commitment required for the pilot."
+  },
+  {
+    "id": "how-fast",
+    "category": "contact",
+    "content": "Missed-call text-back can go live on your phone line within days. A full website plus custom chatbot build typically launches within a few weeks of kickoff depending on scope and content readiness."
+  },
+  {
+    "id": "no-new-software",
+    "category": "contact",
+    "content": "Clients do not need to buy or learn new software. Dunn Consulting connects to the phone system, calendar, and tools you already use and manages the automation stack on their side."
+  },
+  {
+    "id": "month-to-month",
+    "category": "contact",
+    "content": "Engagements are month-to-month after the initial build — no long-term lock-in. Dunn Consulting handles monitoring, tuning, and improvements so the system keeps working as the business changes."
+  },
+  {
+    "id": "contact-email",
+    "category": "contact",
+    "content": "Reach Dunn Consulting at demo@example.com or book a call at calendly.com/dunnredt/30min."
+  },
+  {
+    "id": "sms-opt-out",
+    "category": "policies",
+    "content": "To opt out of text messages from Dunn Consulting programs, reply STOP at any time. You will receive one final message confirming your unsubscription."
+  },
+  {
+    "id": "sms-help",
+    "category": "policies",
+    "content": "For help with Dunn Consulting text messaging programs, reply HELP or email demo@example.com."
+  },
+  {
+    "id": "sms-consent",
+    "category": "policies",
+    "content": "Consent to receive text messages is not a condition of purchasing any goods or services from Dunn Consulting or the businesses they serve."
+  },
+  {
+    "id": "sms-message-frequency",
+    "category": "policies",
+    "content": "The frequency of messages you receive from Dunn Consulting text programs varies based on your interactions with the business."
+  },
+  {
+    "id": "sms-carrier-liability",
+    "category": "policies",
+    "content": "Mobile carriers are not liable for delayed or undelivered messages sent through Dunn Consulting text messaging programs."
+  },
+  {
+    "id": "sms-privacy",
+    "category": "policies",
+    "content": "Dunn Consulting does not share mobile information with third parties or affiliates for marketing or promotional purposes. See their Privacy Policy at dunnconsulting.org/privacy for details."
+  }
+]

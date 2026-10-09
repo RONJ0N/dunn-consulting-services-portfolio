@@ -1,0 +1,102 @@
+[
+  {
+    "id": "services-overview",
+    "category": "services",
+    "content": "Summit Home Services handles residential heating, cooling, and plumbing: AC repair and replacement, furnace and heat pump service, thermostat installation, duct cleaning and sealing, drain clearing, leak repair, toilet and faucet work, and water heater repair or replacement (tank and tankless)."
+  },
+  {
+    "id": "services-ac-repair",
+    "category": "services",
+    "content": "AC repair covers all major brands (Trane, Carrier, Lennox, Goodman, Rheem and more). Technicians arrive with common parts on the truck, and most cooling repairs are completed in a single visit."
+  },
+  {
+    "id": "services-installs",
+    "category": "services",
+    "content": "Full-system replacements include a free in-home estimate, load calculation, and written quote with good/better/best options. Most installations are completed in one day, and old equipment haul-away is included."
+  },
+  {
+    "id": "services-plumbing",
+    "category": "services",
+    "content": "Plumbing services include drain clearing, leak detection and repair, toilet and faucet replacement, garbage disposals, and water heaters. We do not currently do full repipes or new-construction plumbing."
+  },
+  {
+    "id": "pricing-diagnostic",
+    "category": "pricing",
+    "content": "The diagnostic visit is $89, which covers a full system inspection and a written diagnosis with upfront repair pricing. The diagnostic fee is waived if you approve the repair on the spot."
+  },
+  {
+    "id": "pricing-estimates",
+    "category": "pricing",
+    "content": "Estimates for system replacements and new installations are always free. Repair pricing is flat-rate and quoted upfront before any work begins — no hourly surprises."
+  },
+  {
+    "id": "pricing-ranges",
+    "category": "pricing",
+    "content": "Typical ranges: common AC repairs run $150–$650 depending on the part; water heater replacement runs $1,400–$3,200 installed; full HVAC system replacement typically runs $7,000–$14,000 depending on size and efficiency. Exact pricing is confirmed in writing before work starts."
+  },
+  {
+    "id": "pricing-financing",
+    "category": "pricing",
+    "content": "Financing is available on repairs and installations over $1,000, including 0% interest for 12 months on approved credit. The office can send a financing application link by text or email."
+  },
+  {
+    "id": "scheduling-same-day",
+    "category": "scheduling",
+    "content": "Same-day appointments are usually available for calls received before 2 PM, Monday through Saturday. Arrival windows are two hours, and the technician texts when they're 30 minutes out."
+  },
+  {
+    "id": "scheduling-emergency",
+    "category": "scheduling",
+    "content": "Emergency service is available 24/7 for no-cooling, no-heat, and active water leak situations. The after-hours emergency dispatch fee is $149, applied toward the repair if you proceed."
+  },
+  {
+    "id": "scheduling-how",
+    "category": "scheduling",
+    "content": "To schedule a visit, share your name, phone number, and a quick description of the issue and the team will confirm a time window — or use the booking link to pick a slot yourself."
+  },
+  {
+    "id": "service-area-main",
+    "category": "service_area",
+    "content": "Summit Home Services covers the greater Austin metro: Austin, Round Rock, Cedar Park, Leander, Pflugerville, Georgetown, Buda, and Kyle. No travel fees anywhere in the standard service area."
+  },
+  {
+    "id": "service-area-outside",
+    "category": "service_area",
+    "content": "For homes outside the standard service area (within about 45 minutes of Austin), service may still be available with a $49 travel fee — the office confirms when booking."
+  },
+  {
+    "id": "maintenance-plan",
+    "category": "maintenance",
+    "content": "The Summit Comfort Club is $19/month and includes two seasonal HVAC tune-ups per year, priority same-day scheduling, 15% off all repairs, no after-hours emergency fees, and a transferable labor warranty extension."
+  },
+  {
+    "id": "maintenance-why",
+    "category": "maintenance",
+    "content": "Seasonal tune-ups catch small failures before peak season, keep manufacturer warranties valid, and typically cut cooling bills 10–15%. Club members get first priority during summer heat waves."
+  },
+  {
+    "id": "warranty-labor",
+    "category": "warranty",
+    "content": "All repairs carry a 1-year labor warranty. New system installations include a 10-year parts warranty (manufacturer) and a 2-year labor warranty from Summit. If something we fixed fails again within warranty, the return visit is free."
+  },
+  {
+    "id": "warranty-licensed",
+    "category": "warranty",
+    "content": "Summit Home Services is fully licensed (TACLA-XXXXXX), bonded, and insured in the State of Texas. Every technician is background-checked and drug-tested, and we're happy to provide proof of insurance on request."
+  },
+  {
+    "id": "warranty-guarantee",
+    "category": "warranty",
+    "content": "100% satisfaction guarantee: if you're not happy with a repair, we'll make it right or refund the labor. We don't consider a job done until the system is running and the workspace is cleaner than we found it."
+  },
+  {
+    "id": "contact-hours",
+    "category": "contact",
+    "content": "Office hours are Monday–Friday 7:30 AM to 6 PM and Saturday 8 AM to 2 PM. Phone: (512) 555-0142. Email: demo@example.com. After-hours calls are answered by the on-call dispatcher for emergencies."
+  },
+  {
+    "id": "contact-human",
+    "category": "contact",
+    "content": "To talk to a person right away, call (512) 555-0142 during office hours and the front office picks up live. After hours, leave your name and number — or for emergencies, choose the emergency option to page the on-call technician."
+  }
+]
